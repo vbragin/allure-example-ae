@@ -33,8 +33,8 @@ steps:
 
   displayName: 'running java junit5 tests by gradle'
   env:
-    ALLURE_ENDPOINT: https://826d-5-35-105-221.ngrok-free.app
-    ALLURE_PROJECT_ID: 6
+    ALLURE_ENDPOINT: https://testing.testops.cloud
+    ALLURE_PROJECT_ID: 3
     ALLURE_TOKEN: $(ALLURE_TOKEN)
     ALLURE_RESULTS: $(ALLURE_RESULTS)
     ALLURE_LAUNCH_NAME: "$(Build.DefinitionName)-$(Build.BuildNumber)"
