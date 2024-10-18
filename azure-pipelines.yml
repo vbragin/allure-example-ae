@@ -33,7 +33,7 @@ steps:
 
   displayName: 'running java junit5 tests by gradle'
   env:
-    ALLURE_ENDPOINT: https://0e12-109-230-128-254.ngrok-free.app
+    ALLURE_ENDPOINT: https://826d-5-35-105-221.ngrok-free.app
     ALLURE_PROJECT_ID: 6
     ALLURE_TOKEN: $(ALLURE_TOKEN)
     ALLURE_RESULTS: $(ALLURE_RESULTS)
